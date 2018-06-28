@@ -44,60 +44,100 @@ header {}
     max-width: 1140px;
 }
 
-                                   /*About Company*/
+.bg_like_vk{
+    background-color: #596689;
+}
+/*About Company*/
 
-.about_company{
+.about_company {
     background-color: #fff;
 }
 
-.a_c_important_div{
-text-align: center;
-color: #b0b0b0;
+.a_c_important_div {
+    text-align: center;
+    color: #b0b0b0;
+    font-family: Arsenal;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 43.13px;
+}
+
+
+.a_c_header {
+    margin-bottom: 44px;
+    text-align: center;
+    font-family: Arsenal;
+    line-height: 43.13px;
+    color: #596689;
+    font-size: 47px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.a_c_content_div_header {
+    /* Style for "Равным обр" */
+    font-family: Arsenal;
+    line-height: 24px;
+    /* Text style for "Равным обр" */
+    color: #596689;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+
+
+.a_c_content_div_article_check_icon {
+    color: #596689;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.a_c_content_div_article_text {
+    color: #000000;
+    font-family: Arsenal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/*MANAGER'S SPEACH*/
+
+.manager_speach_header {
+    padding-top: 90px;
+    margin-bottom: 47px;
+    text-align: center;
+    color: #88c775;
+    font-family: Arsenal;
+    font-size: 47px;
+    font-weight: 700;
+    line-height: 43.13px;
+    text-transform: uppercase;
+}
+
+.m_s_text {
+    color: #ffffff;
+    font-family: Arsenal;
+    font-size: 15px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.m_s_position{
+color: #88c775;
 font-family: Arsenal;
 font-size: 24px;
-font-weight: 400;
-line-height: 43.13px;
-}
-
-
-.a_c_header{
-margin-bottom: 44px;
-text-align: center;
-font-family: Arsenal;
-line-height: 43.13px;
-color: #596689;
-font-size: 47px;
 font-weight: 700;
-text-transform: uppercase; 
+font-style: italic;
 }
 
-.a_c_content_div_header{
-  /* Style for "Равным обр" */
+.m_s_name{
 font-family: Arsenal;
-line-height: 24px;
-/* Text style for "Равным обр" */
-color: #596689;
-font-size: 18px;
+font-size: 24px;
 font-weight: 700;
- 
+font-style: italic;
+color: #ffffff;
 }
-
-
-
-.a_c_content_div_article_check_icon{
-color: #596689;
-font-size: 36px;
-font-weight: 400;
-}
-
-.a_c_content_div_article_text{
-    color: #000000;
-font-family: Arsenal;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-}
-
 
 /*//USEFUL POSTS*/
 
@@ -230,49 +270,50 @@ footer {
 
 
 
-.map_of_object{
+.map_of_object {
     text-align: center;
-background-color: #596689;
+    background-color: #596689;
 }
 
-.tiny_center{
+.tiny_center {
     margin: 0 auto;
     max-width: 730px;
 }
 
-.footer_header{
+.footer_header {
     padding-top: 40px;
-   color: #ffffff;
-font-family: Arsenal;
-font-size: 47px;
-font-weight: 700;
-line-height: 43.13px;
-text-transform:uppercase;
+    color: #ffffff;
+    font-family: Arsenal;
+    font-size: 47px;
+    font-weight: 700;
+    line-height: 43.13px;
+    text-transform: uppercase;
 }
 
-.footer_paragraf{
+.footer_paragraf {
     margin-top: 38px;
     margin-bottom: 48px;
-color: #ffffff;
-font-family: Arsenal;
-font-size: 18px;
-font-weight: 700;    
+    color: #ffffff;
+    font-family: Arsenal;
+    font-size: 18px;
+    font-weight: 700;
 }
 
-.footer_button{
-    
-   color: #ffffff;
-font-family: Arsenal;
-font-size: 18px;
-font-weight: 700;
-text-decoration: underline;
+.footer_button {
+
+    color: #ffffff;
+    font-family: Arsenal;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: underline;
     border-bottom: 1px solid transparent;
-    border-top:1px solid transparent;
+    border-top: 1px solid transparent;
 }
 
-.footer_button:hover{
-    border: 1px solid #88c775;;
-    
+.footer_button:hover {
+    border: 1px solid #88c775;
+    ;
+
 }
 
 
@@ -285,14 +326,14 @@ text-decoration: underline;
 
 .footer_fird_info {
     background-color: #596689;
-   padding-top: 21px;
+    padding-top: 21px;
     padding-left: 40px;
 }
 
 
 .phone {
     padding-left: 34px;
-    
+
     background: url(/image/phone_icon.png) no-repeat center left;
 }
 
@@ -323,7 +364,7 @@ text-decoration: underline;
 
 .footer_first_info {
     padding-top: 21px;
-   padding-bottom: 38px;
+    padding-bottom: 38px;
     text-align: center;
     background-color: #596689;
 }
@@ -339,7 +380,7 @@ text-decoration: underline;
 
 .footer_polit {
     text-decoration: underline;
-    
+
 }
 
 .footer_polit_a {
@@ -351,7 +392,7 @@ text-decoration: underline;
 }
 
 .footer_second_info {
-  
+
     background-color: #596689;
 }
 
