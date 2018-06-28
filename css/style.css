@@ -1,0 +1,379 @@
+html,
+body {
+    height: 100%;
+    background-color: black;
+    font-family: 'Arsenal', sans-serif;
+}
+
+
+ul {
+    list-style: none;
+    margin: 0 !important;
+}
+
+a,
+a:hover,
+a:active {
+    text-decoration: none!important;
+    outline: none !important;
+}
+
+button:hover,
+button:active,
+button:focus {
+    outline: none !important;
+    cursor: pointer;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+header {}
+
+.content {
+    color: white;
+    background-color: red;
+    flex: 1 0 auto;
+}
+
+.centered {
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+                                   /*About Company*/
+
+.about_company{
+    background-color: #fff;
+}
+
+.a_c_important_div{
+text-align: center;
+color: #b0b0b0;
+font-family: Arsenal;
+font-size: 24px;
+font-weight: 400;
+line-height: 43.13px;
+}
+
+
+.a_c_header{
+margin-bottom: 44px;
+text-align: center;
+font-family: Arsenal;
+line-height: 43.13px;
+color: #596689;
+font-size: 47px;
+font-weight: 700;
+text-transform: uppercase; 
+}
+
+.a_c_content_div_header{
+  /* Style for "Равным обр" */
+font-family: Arsenal;
+line-height: 24px;
+/* Text style for "Равным обр" */
+color: #596689;
+font-size: 18px;
+font-weight: 700;
+ 
+}
+
+
+
+.a_c_content_div_article_check_icon{
+color: #596689;
+font-size: 36px;
+font-weight: 400;
+}
+
+.a_c_content_div_article_text{
+    color: #000000;
+font-family: Arsenal;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+}
+
+
+/*//USEFUL POSTS*/
+
+.u_p_title {
+    text-transform: uppercase;
+    color: darkgreen;
+}
+
+.u_p_lightGrey {
+
+    background-color: lightgray;
+}
+
+.u_p_lightGrey_card {
+    width: 350px;
+}
+
+.u_p_lightGray_card_img {
+    position: relative;
+
+
+}
+
+.u_p_lightGray_card_img img {
+
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: rgba(46, 52, 70, 0.44);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.u_p_lightGray_card_img:hover .overlay {
+    bottom: 0;
+    height: 100%;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.u_p_lightGray_card_description {
+
+    max-height: 91px;
+
+    background-color: #596689;
+    padding: 23px 47px 25px 14px;
+
+    position: relative;
+}
+
+.discription_link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.u_p_lightGray_card_description:hover {
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.26);
+    background-color: #88c775;
+}
+
+.u_p_card_description_text {
+    color: #fff;
+    max-width: 289px;
+    max-height: 43px;
+
+}
+
+.discription_link {
+    display: block;
+    width: 100%;
+    height: 100%;
+
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.u_p_darkGrey {
+    height: 290px;
+    background-color: darkgray;
+}
+
+
+.laska {
+    text-align: center;
+    max-width: 350px;
+    height: 100px;
+    background: url(/image/button.png) no-repeat center center;
+    background-size: contain;
+    color: black;
+
+
+}
+
+
+
+/*                               //   FOOTER*/
+
+footer {
+    color: white;
+    flex: 0 0 auto;
+    min-height: 569px;
+    background: url(/image/work_map.jpg) no-repeat center center;
+    background-size: cover;
+
+
+}
+
+
+
+
+.map_of_object{
+    text-align: center;
+background-color: #596689;
+}
+
+.tiny_center{
+    margin: 0 auto;
+    max-width: 730px;
+}
+
+.footer_header{
+    padding-top: 40px;
+   color: #ffffff;
+font-family: Arsenal;
+font-size: 47px;
+font-weight: 700;
+line-height: 43.13px;
+text-transform:uppercase;
+}
+
+.footer_paragraf{
+    margin-top: 38px;
+    margin-bottom: 48px;
+color: #ffffff;
+font-family: Arsenal;
+font-size: 18px;
+font-weight: 700;    
+}
+
+.footer_button{
+    
+   color: #ffffff;
+font-family: Arsenal;
+font-size: 18px;
+font-weight: 700;
+text-decoration: underline;
+    border-bottom: 1px solid transparent;
+    border-top:1px solid transparent;
+}
+
+.footer_button:hover{
+    border: 1px solid #88c775;;
+    
+}
+
+
+
+.footer_map {
+    min-height: 569px;
+    background: url(/image/work_map.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.footer_fird_info {
+    background-color: #596689;
+   padding-top: 21px;
+    padding-left: 40px;
+}
+
+
+.phone {
+    padding-left: 34px;
+    
+    background: url(/image/phone_icon.png) no-repeat center left;
+}
+
+.footer_mark {
+    padding-left: 34px;
+    background: url(/image/mark_icon.png) no-repeat center left;
+}
+
+.envelope {
+    padding-left: 34px;
+    margin-bottom: 12px;
+    background: url(/image/the_envelope_icon.png) no-repeat center left;
+}
+
+.social {
+    padding-bottom: 24px;
+}
+
+.footer_icon {
+    display: block;
+    margin-right: 8px;
+}
+
+.footer_icon:last-child {
+    margin-right: 0;
+}
+
+
+.footer_first_info {
+    padding-top: 21px;
+   padding-bottom: 38px;
+    text-align: center;
+    background-color: #596689;
+}
+
+.footer_logo {
+    margin-top: 21px;
+    margin-bottom: 8px;
+}
+
+.footer_logo img {
+    display: block;
+}
+
+.footer_polit {
+    text-decoration: underline;
+    
+}
+
+.footer_polit_a {
+    color: #fff;
+}
+
+.footer_polit_a:hover {
+    color: #fff;
+}
+
+.footer_second_info {
+  
+    background-color: #596689;
+}
+
+.footer_second_info_right {
+    margin-left: 49px;
+    margin-top: 20px;
+    margin-bottom: 41px;
+}
+
+.footer_second_info_left {
+
+    margin-left: 17px;
+    margin-top: 20px;
+}
+
+.footer_second_item {
+    color: #ffffff;
+    font-family: Arsenal;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    display: block;
+    padding-left: 26px;
+    background: url(/image/map_arrow.png) no-repeat center left;
+}
