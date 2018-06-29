@@ -44,8 +44,12 @@ header {}
     max-width: 1140px;
 }
 
-.bg_like_vk{
+.bg_like_vk {
     background-color: #596689;
+}
+
+.qaa_padding{
+    padding: 0 26px 0;
 }
 /*About Company*/
 
@@ -123,20 +127,20 @@ header {}
     font-style: italic;
 }
 
-.m_s_position{
-color: #88c775;
-font-family: Arsenal;
-font-size: 24px;
-font-weight: 700;
-font-style: italic;
+.m_s_position {
+    color: #88c775;
+    font-family: Arsenal;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: italic;
 }
 
-.m_s_name{
-font-family: Arsenal;
-font-size: 24px;
-font-weight: 700;
-font-style: italic;
-color: #ffffff;
+.m_s_name {
+    font-family: Arsenal;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: italic;
+    color: #ffffff;
 }
 
 /*//USEFUL POSTS*/
@@ -196,12 +200,9 @@ color: #ffffff;
 }
 
 .u_p_lightGray_card_description {
-
     max-height: 91px;
-
     background-color: #596689;
     padding: 23px 47px 25px 14px;
-
     position: relative;
 }
 
@@ -253,7 +254,144 @@ color: #ffffff;
 
 }
 
+/*Questions and answers*/
 
+.s_QandA{
+    padding: 114px 0 100px;
+}
+.qaa_logo_img {
+    margin:22px 0 42px;
+}
+
+.qaa_border {
+    border: 4px solid #596689;
+    background-color: #ffffff;
+}
+
+.qaa_logo_textDiv {
+    color: #596689;
+    font-family: Arsenal;
+    font-size: 47px;
+    font-weight: 700;
+    line-height: 43.13px;
+    text-transform: uppercase;
+}
+
+
+
+.qaa_formDiv_string {
+    padding: 0 19px 0 10px;
+    min-height: 48px;
+    color: #323232;
+    font-family: Arsenal;
+    font-size: 17px;
+    font-weight: 700;
+    
+}
+
+.qaa_formDiv_string:nth-child(even) {
+    background-color: #f6f6f6;
+}
+
+.qaa_formDiv_headers{
+    margin: 34px 0 13px;
+}
+
+.qaa_formDiv_header1 {
+    text-align: center;
+    color: #424242;
+    font-family: Arsenal;
+    font-weight: 700;
+    line-height: 20px;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+
+.qaa_formDiv_header2 {
+    text-align: center;
+    font-family: Arsenal;
+    font-weight: 700;
+    line-height: 20px;
+    color: #88c775;
+    font-size: 16px;
+}
+
+.qaa_formDiv_header3 {
+    text-align: center;
+    color: #424242;
+    font-family: Arsenal;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.qaa_formDiv_forms input{
+    height: 46px;
+    margin-bottom: 5px;
+    display: block;
+    width: 100%;
+     border: 1px solid #dadada;
+background-color: #f6f6f6;
+}
+
+.qaa_formDiv_container_agreement {
+    color: #424242;
+    font-family: Arsenal;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.qaa_formDiv_container_agreement_link{
+    margin-bottom: 23px;
+}
+
+
+
+.qaa_formDiv_container_agreement_link_a, .qaa_formDiv_container_agreement_link_a:hover{
+    text-decoration: underline !important;
+    color: #88c775 !important;
+   
+}
+
+.qaa_form_textarea{
+     display: block;
+    width: 100%;
+     border: 1px solid #dadada;
+background-color: #f6f6f6;
+    margin-bottom: 19px !important;
+  
+}
+
+.qaa_formDiv_container_agreement_button{
+margin-bottom: 63px;
+color: #ffffff;
+font-family: Arsenal;
+font-size: 14px;
+font-weight: 700;
+text-transform: uppercase;
+    /* Style for "Прямоуголь" */
+
+min-height: 46px;
+background-color: #596689;
+}
+
+
+.qaa_formDiv_container_selection_description{
+   
+min-height: 14px;
+color: #424242;
+font-family: Arsenal;
+font-size: 13px;
+font-weight: 700;
+}
+
+.qaa_formDiv_container_selection_radioButton{
+color: #424242;
+font-family: Arsenal;
+font-size: 14px;
+font-weight: 700;
+}
 
 /*                               //   FOOTER*/
 
@@ -300,7 +438,7 @@ footer {
 }
 
 .footer_button {
-
+height: 78px;
     color: #ffffff;
     font-family: Arsenal;
     font-size: 18px;
@@ -310,11 +448,13 @@ footer {
     border-top: 1px solid transparent;
 }
 
-.footer_button:hover {
-    border: 1px solid #88c775;
-    ;
-
+.no-icon{
+    margin: 0 auto;
+    width: 162px;
+height: 78px;
+border: 1px solid #88c775;
 }
+
 
 
 
@@ -325,6 +465,7 @@ footer {
 }
 
 .footer_fird_info {
+    height: 158px;
     background-color: #596689;
     padding-top: 21px;
     padding-left: 40px;
@@ -363,6 +504,7 @@ footer {
 
 
 .footer_first_info {
+    height: 158px;
     padding-top: 21px;
     padding-bottom: 38px;
     text-align: center;
@@ -392,7 +534,7 @@ footer {
 }
 
 .footer_second_info {
-
+height: 158px;
     background-color: #596689;
 }
 
