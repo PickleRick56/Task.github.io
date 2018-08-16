@@ -31,7 +31,9 @@ button:focus {
     height: 100%;
 }
 
-header {}
+
+
+
 
 .content {
     color: white;
@@ -44,13 +46,317 @@ header {}
     max-width: 1140px;
 }
 
+.centered_540 {
+    max-width: 540px;
+}
+
+.offset_right_1 {
+    margin-right: 8.33333333%;
+}
+
 .bg_like_vk {
     background-color: #596689;
 }
 
-.qaa_padding{
+.qaa_padding {
     padding: 0 26px 0;
 }
+
+
+/*                                      HEADER*/
+
+header {}
+
+.header_top_nav{
+    background-color: #596689;
+}
+
+.header_top_navBar_ul_li,
+.header_top_navBar_ul_li:hover {
+    font-family: Arsenal;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #fff;
+}
+
+.active,
+.active:hover {
+    /* Style for "Главная" */
+    width: 286px;
+    height: 16px;
+
+    font-family: Arsenal;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    /* Text style for "Г, лавная" */
+    color: #88c775;
+}
+
+.header_top_navBar_ul_li {
+    margin-right: 18px;
+}
+
+.header_top_navBar_ul_li:last-child {
+    margin-right: 0;
+}
+
+.consultation {
+    position: absolute;
+}
+
+.consultation_div button {
+    position: relative;
+    top: -24%;
+    color: #ffffff;
+    font-family: Arsenal;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 28px;
+    text-transform: uppercase;
+    padding: 12px;
+    24px;
+    background-color: #88c775;
+    
+}
+
+.driveThrough_button_a,
+.driveThrough_button_a:hover {
+    padding-left: 22px;
+    color: #ffffff;
+    font-family: Arsenal;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    text-decoration: underline !important;
+    background: url(/image/mark_icon.png) left center no-repeat;
+}
+
+.call_number_div {
+    padding-left: 25px;
+    color: #ffffff;
+    font-family: Arsenal;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    background: url(/image/phone_icon.png) left center no-repeat;
+}
+
+.header_middle_nav{
+    background-color: #f6f6f6;
+}
+
+.li{
+
+color: #212635;
+font-family: Arsenal;
+font-size: 17px;
+font-weight: 700;
+line-height: 9px;
+text-transform: uppercase;
+/* Text style for "О,  компан" */
+
+    border: 1px solid transparent;
+    padding: 17px 8px;
+}
+
+.li_active{
+ color: #596689;
+    border: 1px solid #596689;
+    padding: 17px 8px;
+}
+
+
+.header_button_callZamershchika button{
+    background-color: green;
+
+}
+
+.header_main{
+background-color: #596689;
+}
+
+
+.header_main_example_contant_cover{
+   
+
+padding:62px 0 25px;
+color: #ffffff;
+font-family: Arsenal;
+font-size: 36px;
+font-weight: 700;
+text-transform: uppercase;
+}
+
+.header_main_example_forma_header{
+    /* Style for "Бесплатный" */
+
+
+color: #303a53;
+font-family: Arsenal;
+font-size: 30px;
+font-weight: 700;
+}
+
+.header_main_example_contant_button {
+
+width: 236px;
+
+background-color: #88c775;
+    
+text-align: center;
+padding:16.5px 0;
+margin-bottom: 68px;
+color: #ffffff;
+font-family: Arsenal;
+font-size: 15px;
+font-weight: 700;
+line-height: 15px;
+text-transform: uppercase;
+}
+
+.color_light{
+    background-color: #f6f6f6;
+}
+
+.header_main_example_forma_forms_input1 input {
+  /* Style for "Прямоуголь" */
+width: 100%;
+height: 43px;
+padding: 14px  0 14px 14px ;  
+border: 1px solid #dadada;
+background-color: #f9f9f9;
+    
+    color: #8c8c8c;
+font-family: Arsenal;
+font-size: 14px;
+font-weight: 700;
+}
+
+.header_main_example_forma_header_agreement_string{
+   line-height: 1;
+    height: 47px;
+    color: #000;
+    font-family: Arsenal;
+    font-size: 14px;
+    font-weight: 700; 
+}
+
+.header_main_example_forma_header_agreement_a, .header_main_example_forma_header_agreement_a:hover{
+    color: #596689;
+    font-family: Arsenal;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: underline !important;
+}
+
+.header_main_example_forma_header_capcha {
+        height: 46px;
+    background: url(../image/capcha.png) no-repeat center center;
+    background-size: cover;
+
+}
+
+.header_main_example_forma_header_button button{
+      
+    height: 46px;
+    background-color: #88c775;
+    color: #ffffff;
+    font-family: Arsenal;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+ 
+}
+
+.new_div{
+    
+   background-color: #f6f6f6;
+}
+
+.container_div{
+    margin: 0 auto;
+    height: 688px;
+    position: relative;
+    max-width: 1140px;
+    
+    background: url(../image/header_bg_car2.png) no-repeat center center #f6f6f6;
+    background-size: contain;
+}
+
+
+.cont_box{
+    top: 0;
+    left: 26%;
+    position: absolute;
+    width: 255px;
+height: 181px;
+    background-color: transparent;
+}
+.cont_box2{
+    top: 0;
+    left: 51%;
+    position: absolute;
+    width: 255px;
+height: 181px;
+    background-color:  transparent;  
+}
+.cont_box3{
+ top: 24%;
+    left: 15px;
+    position: absolute;
+    width: 255px;
+height: 181px;
+    background-color:  #fff;
+    box-shadow: 0 5px 24px rgba(0, 0, 0, 0.25);
+border: 2px solid #f2f2f2;
+
+}
+
+.cont_box4{
+ top: 24%;
+    right:15px;
+    position: absolute;
+    width: 255px;
+height: 181px;
+    background-color: transparent;
+
+}
+
+
+.header_newDiv_imageContainer{
+  
+    position: absolute;
+ bottom: 0;
+    left:50%;
+    margin-left:-40%;
+}
+
+.header_newDiv_imageContainer::before {
+   content: '';
+    display: block;
+    top: 97%;
+    right: 98.1%;
+    left: -100%;
+    bottom: 0px;
+    position: absolute;
+
+ background-color: #d5d5d5;
+}
+
+.header_newDiv_imageContainer::after {
+   content: '';
+    display: block;
+    top: 97%;
+    right: -100%;
+    left: 98.1%;
+    bottom: 0px;
+    position: absolute;
+ background-color: #d5d5d5;
+}
+
+
 /*About Company*/
 
 .about_company {
@@ -103,6 +409,151 @@ header {}
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
+}
+
+/*PRICE*/
+
+.price_order {
+    /* Style for "Прямоуголь" */
+    width: 733px;
+    height: 467px;
+
+}
+
+.price_header {
+    text-align: center;
+    margin-bottom: 47px;
+    min-height: 40px;
+    color: #ffffff;
+    font-family: Arsenal;
+    font-size: 47px;
+    font-weight: 700;
+    line-height: 43px;
+    text-transform: uppercase;
+}
+
+.price_order_your_price {
+    /* Style for "Прямоуголь" */
+    height: 109px;
+    background-color: #ffffff;
+}
+
+.price_order_your_price_priceIcon {
+    /* Style for "11 000 руб" */
+    width: 110px;
+    height: 25px;
+    color: #ffffff;
+    font-family: Arsenal;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 43.13px;
+
+    width: 272px;
+    height: 76px;
+    background-color: #596689;
+}
+
+.price_order_value {
+    text-align: center;
+    color: #fefefe;
+    font-family: Arsenal;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 64px;
+    height: 64px;
+    background-color: #88c775;
+}
+
+.price_order_value_button {
+
+    width: 272px;
+    height: 76px;
+    background-color: #596689;
+
+    color: #ffffff;
+    font-family: Arsenal;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 43.13px;
+}
+
+.price_order_makeOrder {
+    background-color: #f6f6f6;
+}
+
+.price_order_makeOrder_header {
+    text-align: center;
+    color: #596689;
+    font-family: Arsenal;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 43.13px;
+}
+
+.price_order_makeOrder_form_agreement {
+    line-height: 1;
+    height: 47px;
+    color: #000;
+    font-family: Arsenal;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+.price_order_makeOrder_form_agreement_a,
+.price_order_makeOrder_form_agreement_a:hover {
+    /* Style for "Я согласен" */
+    color: #596689;
+    font-family: Arsenal;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: underline !important;
+
+}
+
+.price_order_makeOrder_form_capcha {
+    width: 174px;
+    height: 46px;
+    background: url(/image/capcha.png) no-repeat center center;
+    background-size: contain;
+}
+
+.price_order_makeOrder_form_button button {
+
+    width: 163px;
+    height: 46px;
+    background-color: #88c775;
+
+    color: #ffffff;
+    font-family: Arsenal;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.price_order_OnceAgain {
+    /* Style for "Прямоуголь" */
+    max-width: 733px;
+    min-height: 74px;
+    background-color: #ffffff;
+}
+
+.price_order_OnceAgain_button {
+    margin-top: 9px;
+    margin-right: calc(15px + 11px);
+
+    /* Style for "Прямоуголь" */
+    width: 140px;
+    height: 44px;
+    border: 1px solid #c0c0c0;
+    background-color: #f6f6f6;
+
+    /* Style for "Пройти еще" */
+    color: #596689;
+    font-family: Arsenal;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 43.13px;
 }
 
 /*MANAGER'S SPEACH*/
@@ -256,11 +707,12 @@ header {}
 
 /*Questions and answers*/
 
-.s_QandA{
+.s_QandA {
     padding: 114px 0 100px;
 }
+
 .qaa_logo_img {
-    margin:22px 0 42px;
+    margin: 22px 0 42px;
 }
 
 .qaa_border {
@@ -286,14 +738,14 @@ header {}
     font-family: Arsenal;
     font-size: 17px;
     font-weight: 700;
-    
+
 }
 
 .qaa_formDiv_string:nth-child(even) {
     background-color: #f6f6f6;
 }
 
-.qaa_formDiv_headers{
+.qaa_formDiv_headers {
     margin: 34px 0 13px;
 }
 
@@ -326,13 +778,13 @@ header {}
     line-height: 20px;
 }
 
-.qaa_formDiv_forms input{
+.qaa_formDiv_forms input {
     height: 46px;
     margin-bottom: 5px;
     display: block;
     width: 100%;
-     border: 1px solid #dadada;
-background-color: #f6f6f6;
+    border: 1px solid #dadada;
+    background-color: #f6f6f6;
 }
 
 .qaa_formDiv_container_agreement {
@@ -342,55 +794,55 @@ background-color: #f6f6f6;
     font-weight: 700;
 }
 
-.qaa_formDiv_container_agreement_link{
+.qaa_formDiv_container_agreement_link {
     margin-bottom: 23px;
 }
 
 
 
-.qaa_formDiv_container_agreement_link_a, .qaa_formDiv_container_agreement_link_a:hover{
+.qaa_formDiv_container_agreement_link_a,
+.qaa_formDiv_container_agreement_link_a:hover {
     text-decoration: underline !important;
     color: #88c775 !important;
-   
+
 }
 
-.qaa_form_textarea{
-     display: block;
+.qaa_form_textarea {
+    display: block;
     width: 100%;
-     border: 1px solid #dadada;
-background-color: #f6f6f6;
+    border: 1px solid #dadada;
+    background-color: #f6f6f6;
     margin-bottom: 19px !important;
-  
+
 }
 
-.qaa_formDiv_container_agreement_button{
-margin-bottom: 63px;
-color: #ffffff;
-font-family: Arsenal;
-font-size: 14px;
-font-weight: 700;
-text-transform: uppercase;
+.qaa_formDiv_container_agreement_button {
+    margin-bottom: 63px;
+    color: #ffffff;
+    font-family: Arsenal;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
     /* Style for "Прямоуголь" */
-
-min-height: 46px;
-background-color: #596689;
+    min-height: 46px;
+    background-color: #596689;
 }
 
 
-.qaa_formDiv_container_selection_description{
-   
-min-height: 14px;
-color: #424242;
-font-family: Arsenal;
-font-size: 13px;
-font-weight: 700;
+.qaa_formDiv_container_selection_description {
+
+    min-height: 14px;
+    color: #424242;
+    font-family: Arsenal;
+    font-size: 13px;
+    font-weight: 700;
 }
 
-.qaa_formDiv_container_selection_radioButton{
-color: #424242;
-font-family: Arsenal;
-font-size: 14px;
-font-weight: 700;
+.qaa_formDiv_container_selection_radioButton {
+    color: #424242;
+    font-family: Arsenal;
+    font-size: 14px;
+    font-weight: 700;
 }
 
 /*                               //   FOOTER*/
@@ -438,7 +890,7 @@ footer {
 }
 
 .footer_button {
-height: 78px;
+    height: 78px;
     color: #ffffff;
     font-family: Arsenal;
     font-size: 18px;
@@ -448,11 +900,11 @@ height: 78px;
     border-top: 1px solid transparent;
 }
 
-.no-icon{
+.no-icon {
     margin: 0 auto;
     width: 162px;
-height: 78px;
-border: 1px solid #88c775;
+    height: 78px;
+    border: 1px solid #88c775;
 }
 
 
@@ -534,7 +986,7 @@ border: 1px solid #88c775;
 }
 
 .footer_second_info {
-height: 158px;
+    height: 158px;
     background-color: #596689;
 }
 
@@ -559,4 +1011,43 @@ height: 158px;
     display: block;
     padding-left: 26px;
     background: url(/image/map_arrow.png) no-repeat center left;
+}
+
+
+
+.radio {
+    display: none;
+}
+
+.radio-custom {
+    width: 20px;
+    height: 20px;
+
+    border-radius: 3px;
+    background-color: #ccc;
+    position: relative;
+}
+
+.radio-custom,
+.label {
+    color: #000;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.radio:checked + .radio-custom::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: -webkit-radial-gradient(center center, circle closest-corner, #fff 30%, #596689 30%);
+    border-radius: 2px;
+}
+
+.radio-custom,
+.radio:checked + .radio-custom::before {
+    border-radius: 50%;
 }
