@@ -271,8 +271,9 @@ font-weight: 700;
 }
 
 .new_div{
-    
+    position: relative;
    background-color: #f6f6f6;
+    overflow: hidden;
 }
 
 .container_div{
@@ -324,36 +325,44 @@ height: 181px;
 
 }
 
+.button_order{
+    position:absolute;
+    height: 100px;
+    width: 300px;
+    bottom: 39%;
+     left:50%;
+    margin-left:-150px;
+}
+
 
 .header_newDiv_imageContainer{
-  
+    height: 149px;
+    width: 920px;
     position: absolute;
- bottom: 0;
-    left:50%;
-    margin-left:-40%;
+    bottom:0;
+    left: 50%;
+    margin-left: -460px;
 }
 
-.header_newDiv_imageContainer::before {
-   content: '';
-    display: block;
-    top: 97%;
-    right: 98.1%;
-    left: -100%;
-    bottom: 0px;
-    position: absolute;
-
- background-color: #d5d5d5;
+.header_newDiv_imageContainer::after,
+ .header_newDiv_imageContainer::before{
+ content: "";
+  position: absolute;
+  height: 5px;
+  background-color: rgb(213,213,213);
+bottom: 0;
+width: 600px;
 }
 
-.header_newDiv_imageContainer::after {
-   content: '';
-    display: block;
-    top: 97%;
-    right: -100%;
-    left: 98.1%;
-    bottom: 0px;
-    position: absolute;
- background-color: #d5d5d5;
+
+
+.header_newDiv_imageContainer:after {
+right: 100%;
+    
+}
+.header_newDiv_imageContainer:before {
+left: 100%;
+    
 }
 
 
