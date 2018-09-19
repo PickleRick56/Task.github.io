@@ -67,6 +67,49 @@ button:focus {
 
 header {}
 
+.header_middle_nav{
+ position: relative;
+}
+
+.BMCentered{
+    left: 0 !important;
+ 
+/*ТУТ ДОЛЖНА БЫТЬ КНОПКА ВЫЗЫВАЮЩАЯ МЕНЮ*/
+}
+
+.deleteBlack{
+    z-index: 999;
+}
+
+.black_menu{
+   position: fixed;
+    
+    top:0;
+left: -100%;
+    width: 33.3%;
+   
+  height: 100%;
+ 
+    background-color: black;
+    transition: left 3s;
+    z-index: 1;
+    opacity: 0.9;
+}
+
+.black_menu_ul{
+    padding: 0;
+    text-align: center;
+}
+
+
+.black_menu_ul a{
+    color: white;
+}
+
+.black_menu_ul a:hover{
+    color: lightgray;
+}
+
 .header_top_nav{
     background-color: #596689;
 }
@@ -153,7 +196,7 @@ color: #212635;
 font-family: Arsenal;
 font-size: 17px;
 font-weight: 700;
-line-height: 9px;
+line-height: 14px;
 text-transform: uppercase;
 /* Text style for "О,  компан" */
 
@@ -746,9 +789,7 @@ left: 100%;
     background-color: lightgray;
 }
 
-.u_p_lightGrey_card {
-    width: 350px;
-}
+
 
 .u_p_lightGray_card_img {
     position: relative;
@@ -774,7 +815,7 @@ left: 100%;
     transition: .5s ease;
 }
 
-.u_p_lightGray_card_img:hover .overlay {
+.u_p_lightGrey_card:hover .overlay {
     bottom: 0;
     height: 100%;
 }
@@ -804,7 +845,7 @@ left: 100%;
     z-index: 3;
 }
 
-.u_p_lightGray_card_description:hover {
+   .u_p_lightGrey_card:hover   .u_p_lightGray_card_description {
     box-shadow: 0 5px 18px rgba(0, 0, 0, 0.26);
     background-color: #88c775;
 }
