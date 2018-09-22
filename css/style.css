@@ -103,12 +103,21 @@ left: -100%;
 
 
 .black_menu_ul a{
-    color: white;
+    display: block;
+     color: #fff;
+    font-weight: 300;
+    font-size: 14px;
+    height: 36px;
+    line-height: 36px;
+    background-color:black;
+    border: 2px solid white;
+    border-collapse:collapse !important;
 }
 
 .black_menu_ul a:hover{
     color: lightgray;
 }
+
 
 .header_top_nav{
     background-color: #596689;
