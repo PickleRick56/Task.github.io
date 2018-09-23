@@ -704,7 +704,7 @@ left: 100%;
 }
 
 .price_order_makeOrder_form_capcha {
-    width: 174px;
+   width: 174px;
     height: 46px;
     background: url(../image/capcha.png) no-repeat center center;
     background-size: contain;
@@ -712,7 +712,7 @@ left: 100%;
 
 .price_order_makeOrder_form_button button {
 
-    width: 163px;
+/*    width: 163px;*/
     height: 46px;
     background-color: #88c775;
 
