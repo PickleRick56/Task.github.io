@@ -1,0 +1,75 @@
+@media (min-width: 768px) and (max-width: 866px) { 
+
+    .cont_box1Cover{
+        
+            
+    left: 15% !important;
+    
+    }
+    
+    
+    .cont_box2Cover{
+       
+            
+    left: 52% !important;
+   
+    }
+    
+    
+}
+
+
+@media  (max-width: 767.98px) {
+    
+    .container_div{
+
+        
+    height:auto!important;
+        position: static !important;
+   
+    
+    background:  #f6f6f6 !important;
+    
+}
+
+    
+    
+    
+.button_order{
+position: static !important;
+ margin-left: 0 !important;
+margin-top: 30px;
+    margin-bottom: 20%;
+    }    
+    
+
+.cont_box1Cover{
+           
+            margin-top: 10px;
+    position: static !important;
+    
+    }
+    
+    
+    .cont_box2Cover{
+     
+          margin-top: 10px;   
+position: static!important;
+   
+    }
+    
+    .cont_box3Cover{
+             
+             margin-top: 10px;
+    position: static !important;
+    
+    }
+    
+    .cont_box4Cover{
+           
+             margin-top: 10px;
+    position: static !important;
+    
+    }
+
+}
