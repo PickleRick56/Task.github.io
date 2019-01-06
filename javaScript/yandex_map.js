@@ -7,7 +7,7 @@ var placemarks = [
         hintContent: '<div class="map__hint">ул. Салмышская 71</div>',
         balloonContent: [
             '<div class="map__balloon">',
-            '<img class="map__img" src="img/burger.png" alt="WebStudia"/>',
+            '<img class="map__img" src="image/sprite1.png" alt="WebStudia"/>',
             'Best of The Best',
             '</div>'
         ]
@@ -18,7 +18,7 @@ var placemarks = [
         hintContent: '<div class="map__hint">ул. Салмышская 71</div>',
         balloonContent: [
             '<div class="map__balloon">',
-            '<img class="map__img" src="img/burger.png" alt="WebStudia"/>',
+            '<img class="map__img" src="image/sprite1.png" alt="WebStudia"/>',
             'Best of The Best',
              '</div>'
         ]
@@ -29,7 +29,7 @@ var placemarks = [
         hintContent: '<div class="map__hint">ул. Салмышская 71</div>',
         balloonContent: [
             '<div class="map__balloon">',
-            '<img class="map__img" src="img/burger.png" alt="WebStudia"/>',
+            '<img class="map__img" src="image/sprite1.png" alt="WebStudia"/>',
             'Best of The Best',
             '</div>'
         ]
