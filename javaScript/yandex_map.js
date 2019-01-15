@@ -40,7 +40,7 @@ var placemarks = [
 function init() {
     var map = new ymaps.Map('map', {
         center: [51.808016, 55.151142],
-        zoom: 12,
+        zoom: 10,
         controls: ['zoomControl'],
         behaviors: ['drag']
     });

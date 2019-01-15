@@ -1,7 +1,7 @@
 html,
 body {
     height: 100%;
-    background-color: black;
+    background-color: red;
     font-family: 'Arsenal', sans-serif;
 }
 
@@ -520,11 +520,11 @@ color: #596689;
 
 .header_newDiv_imageContainer{
     height: 149px;
-    
-    position: absolute;
-    bottom:0;
-    left: 50%;
-    margin-left: -40%;
+    width:79%;
+position: absolute;
+bottom: 0;
+left: 50%;
+margin-left: -39.7%;
 }
 
 .header_newDiv_imageContainer::after,
@@ -905,6 +905,43 @@ left: 100%;
     margin: 22px 0 42px;
 }
 
+.radio {
+    display: none;
+}
+
+.radio-custom {
+    width: 20px;
+    height: 20px;
+
+    border-radius: 3px;
+    background-color: #ccc;
+    position: relative;
+}
+
+.radio-custom,
+.label {
+    color: #000;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.radio:checked + .radio-custom::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: -webkit-radial-gradient(center center, circle closest-corner, #fff 30%, #596689 30%);
+    border-radius: 2px;
+}
+
+.radio-custom,
+.radio:checked + .radio-custom::before {
+    border-radius: 50%;
+}
+
 .qaa_border {
     border: 4px solid #596689;
     background-color: #ffffff;
@@ -1041,12 +1078,165 @@ footer {
     color: white;
     flex: 0 0 auto;
     min-height: 569px;
-    background: black;
+    background: white;
     background-size: cover;
 
 
 }
 
+
+.map_of_object {
+    text-align: center;
+    background-color: #596689;
+}
+
+.tiny_center {
+    margin: 0 auto;
+    max-width: 730px;
+}
+
+.footer_header {
+    padding-top: 40px;
+    color: #ffffff;
+    font-family: Arsenal;
+    font-size: 47px;
+    font-weight: 700;
+    line-height: 43.13px;
+    text-transform: uppercase;
+}
+
+.footer_paragraf {
+    margin-top: 38px;
+    margin-bottom: 48px;
+    color: #ffffff;
+    font-family: Arsenal;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.footer_button {
+    height: 78px;
+    color: #ffffff;
+    font-family: Arsenal;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: underline;
+    border-bottom: 1px solid transparent;
+    border-top: 1px solid transparent;
+}
+
+.no-icon {
+    margin: 0 auto;
+    width: 162px;
+    height: 78px;
+    border: 1px solid #88c775;
+}
+
+
+
+
+.footer_map {
+    min-height: 569px;
+    background: url(../image/work_map.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.footer_fird_info {
+    height: 158px;
+    background-color: #596689;
+    padding-top: 21px;
+    padding-left: 40px;
+}
+
+
+.phone {
+    padding-left: 34px;
+
+    background: url(../image/phone_icon.png) no-repeat center left;
+}
+
+.footer_mark {
+    padding-left: 34px;
+    background: url(../image/mark_icon.png) no-repeat center left;
+}
+
+.envelope {
+    padding-left: 34px;
+    margin-bottom: 12px;
+    background: url(../image/the_envelope_icon.png) no-repeat center left;
+}
+
+.social {
+    padding-bottom: 24px;
+}
+
+.footer_icon {
+    display: block;
+    margin-right: 8px;
+}
+
+.footer_icon:last-child {
+    margin-right: 0;
+}
+
+
+.footer_first_info {
+    height: 158px;
+    padding-top: 21px;
+    padding-bottom: 38px;
+    text-align: center;
+    background-color: #596689;
+}
+
+.footer_logo {
+    margin-top: 21px;
+    margin-bottom: 8px;
+}
+
+.footer_logo img {
+    display: block;
+}
+
+.footer_polit {
+    text-decoration: underline;
+
+}
+
+.footer_polit_a {
+    color: #fff;
+}
+
+.footer_polit_a:hover {
+    color: #fff;
+}
+
+.footer_second_info {
+    height: 158px;
+    background-color: #596689;
+}
+
+.footer_second_info_right {
+    margin-left: 49px;
+    margin-top: 20px;
+    margin-bottom: 41px;
+}
+
+.footer_second_info_left {
+
+    margin-left: 17px;
+    margin-top: 20px;
+}
+
+.footer_second_item {
+    color: #ffffff;
+    font-family: Arsenal;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    display: block;
+    padding-left: 26px;
+    background: url(../image/map_arrow.png) no-repeat center left;
+}
 
 
 
@@ -1054,7 +1244,7 @@ footer {
 
 
 .map {
-    height: 500px;
+    min-height: 569px;
     width: 100%;
 }
 
