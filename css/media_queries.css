@@ -1,3 +1,15 @@
+@media  (max-width: 992px) {
+ footer{
+     position: static ;
+ }
+
+ .wappa{
+    position: static ;
+ }
+
+}
+
+
 @media (min-width: 768px) and (max-width: 866px) { 
 
     .cont_box1Cover{

@@ -65,7 +65,7 @@ button:focus {
 
 /*                                      HEADER*/
 
-header {}
+
 
 .header_middle_nav{
  position: relative;
@@ -78,7 +78,7 @@ header {}
 }
 
 .deleteBlack{
-    z-index: 999;
+    z-index: 2;
 }
 
 .black_menu{
@@ -168,7 +168,6 @@ left: -100%;
     line-height: 28px;
     text-transform: uppercase;
     padding: 12px;
-    24px;
     background-color: #88c775;
     
 }
@@ -1080,10 +1079,16 @@ footer {
     min-height: 569px;
     background: white;
     background-size: cover;
-
+    position: relative;
 
 }
 
+.wappa{
+    width: 100%;
+    position: absolute;
+    bottom:0px ;
+    z-index: 1;
+}
 
 .map_of_object {
     text-align: center;
