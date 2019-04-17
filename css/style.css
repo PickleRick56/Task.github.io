@@ -1007,6 +1007,7 @@ button:focus {
 /*                               //   FOOTER*/
 
 footer {
+
     color: white;
     flex: 0 0 auto;
     min-height: 569px;
@@ -1079,27 +1080,30 @@ footer {
     height: 158px;
     background-color: #596689;
     padding-top: 21px;
-    padding-left: 40px;
+
 }
 
 .phone {
     padding-left: 34px;
-
+    margin-left: 40px;
     background: url(../image/phone_icon.png) no-repeat center left;
 }
 
 .footer_mark {
-    padding-left: 34px;
+    margin-left: 40px;
+    padding-left: 15px;
     background: url(../image/mark_icon.png) no-repeat center left;
 }
 
 .envelope {
+    margin-left: 40px;
     padding-left: 34px;
     margin-bottom: 12px;
     background: url(../image/the_envelope_icon.png) no-repeat center left;
 }
 
 .social {
+    margin-left: 40px;
     padding-bottom: 24px;
 }
 
@@ -1119,6 +1123,7 @@ footer {
     text-align: center;
     background-color: #596689;
 }
+
 
 .footer_logo {
     margin-top: 21px;
