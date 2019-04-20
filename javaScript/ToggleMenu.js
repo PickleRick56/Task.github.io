@@ -1,6 +1,7 @@
-DBlack.addEventListener('click', ToggleFunction);
+displayBlackMenu.addEventListener('click', ToggleFunction);
 
 function ToggleFunction() {
   //blackMenu.style.left= 0;
-  blackMenu.classList.toggle('BMCentered');
+  blackMenu.classList.toggle('blackMenuShow');
+  displayBlackMenu.classList.toggle('blackMenuActive');
 }
