@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 html,
 body {
   height: 100%;
@@ -130,8 +133,8 @@ button:focus {
 
   height: 100%;
 
-  background-color: black;
-  transition: left 1.3s;
+  background-color: #f6f6f6;
+  transition: left 0.5s;
   z-index: 2;
   opacity: 0.9;
 }
@@ -145,26 +148,32 @@ button:focus {
 .black_menu_ul li {
   display: block;
 
-  font-weight: 300;
+  font-weight: bold;
   font-size: 14px;
+  font-family: Arsenal;
   line-height: 19px;
-  padding: 12px 0px;
-  background-color: black;
+
   border-top: 2px solid white;
   border-left: 4px solid white;
   border-right: 4px solid white;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
 }
 
 .black_menu_ul li:last-child {
   border-bottom: 2px solid white;
 }
 
-.black_menu_ul li a {
-  color: #fff;
+.black_menu_ul li > a {
+  display: block;
+  background-color: #f6f6f6;
+
+  line-height: 45px;
+  color: #596689;
 }
 
-.black_menu_ul li a:hover {
-  color: lightgray;
+.black_menu_ul li > a:hover {
+  color: white;
+  background-color: #596689;
 }
 
 .header_top_nav {
@@ -911,7 +920,7 @@ button:focus {
   vertical-align: middle;
 }
 
-.radio:checked+.radio-custom::before {
+.radio:checked + .radio-custom::before {
   content: '';
   display: block;
   position: absolute;
@@ -919,15 +928,17 @@ button:focus {
   right: 0;
   bottom: 0;
   left: 0;
-  background-image: -webkit-radial-gradient(center center,
+  background-image: -webkit-radial-gradient(
+    center center,
     circle closest-corner,
     #fff 30%,
-    #596689 30%);
+    #596689 30%
+  );
   border-radius: 2px;
 }
 
 .radio-custom,
-.radio:checked+.radio-custom::before {
+.radio:checked + .radio-custom::before {
   border-radius: 50%;
 }
 
@@ -1232,11 +1243,13 @@ footer {
   line-height: 1;
   color: #ffffff;
   background-color: #f9b43b;
-  background-image: linear-gradient(to top,
+  background-image: linear-gradient(
+    to top,
     #f9b43b 0%,
     #eb8c38 48%,
     #f9b43b 74%,
-    #f9b43b 100%);
+    #f9b43b 100%
+  );
   border-radius: 20px;
 }
 
@@ -1246,11 +1259,13 @@ footer {
   line-height: 1;
   color: #ffffff;
   background-color: #f9b43b;
-  background-image: linear-gradient(to top,
+  background-image: linear-gradient(
+    to top,
     #f9b43b 0%,
     #eb8c38 48%,
     #f9b43b 74%,
-    #f9b43b 100%);
+    #f9b43b 100%
+  );
   border-radius: 20px;
 }
 
