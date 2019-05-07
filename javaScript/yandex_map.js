@@ -113,6 +113,6 @@ function init() {
     }
   }
   mapResizer();
-  console.log(document.documentElement.clientHeight * 0.5 + 'px');
+
   window.onresize = mapResizer;
 }
