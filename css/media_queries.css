@@ -1,0 +1,77 @@
+@media (max-width: 992px) {
+  footer {
+    position: static !important;
+  }
+
+  .wappa {
+    position: static !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 866px) {
+  .cont_box1Cover {
+    left: 15% !important;
+  }
+
+  .cont_box2Cover {
+    left: 52% !important;
+  }
+}
+
+@media (max-width: 767.98px) {
+
+  .map {
+    height: 200px !important;
+  }
+
+  .container_div {
+    height: auto !important;
+    position: static !important;
+
+    background: #f6f6f6 !important;
+  }
+
+  .header_middle_nav {
+    position: fixed !important;
+    width: 100%;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+  .button_order {
+    position: static !important;
+    margin-left: 0 !important;
+    margin-top: 30px;
+    margin-bottom: 20%;
+  }
+
+  .cont_box1Cover {
+    margin-top: 10px;
+    position: static !important;
+  }
+
+  .cont_box2Cover {
+    margin-top: 10px;
+    position: static !important;
+  }
+
+  .cont_box3Cover {
+    margin-top: 10px;
+    position: static !important;
+  }
+
+  .cont_box4Cover {
+    margin-top: 10px;
+    position: static !important;
+  }
+}
+
+@media (max-width: 360px) {
+  .manager_speach_header {
+    font-size: 37px !important;
+  }
+
+
+}
