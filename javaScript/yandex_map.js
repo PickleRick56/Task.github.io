@@ -88,31 +88,43 @@ function init() {
     map.container.fitToViewport();
   }
 
-  // if (document.documentElement.clientWidth < 575.98) {
-  //   mapElement.className = 'small';
-  //   fitMapToViewport();
-  // } else if (document.documentElement.clientWidth < 767.98) {
-  //   mapElement.className = 'medium';
-  //   fitMapToViewport();
-  // } else if (document.documentElement.clientWidth < 991.98) {
-  //   mapElement.className = 'large';
-  //   fitMapToViewport();
-  // } else {
-  //   mapElement.className = 'large';
-  //   fitMapToViewport();
-  // }
+  if (document.documentElement.clientWidth < 575.98) {
+    mapElement.className = 'small';
+    fitMapToViewport();
+  } else if (document.documentElement.clientWidth < 767.98) {
+    mapElement.className = 'medium';
+    fitMapToViewport();
+  } else if (document.documentElement.clientWidth < 991.98) {
+    mapElement.className = 'large';
+    fitMapToViewport();
+  } else {
+    mapElement.className = 'large';
+    fitMapToViewport();
+  }
 
-  function mapResizer() {
-    if (document.documentElement.clientWidth > 991.98) {
-      mapElement.style.height = 569 + 'px';
+  function resizeMap() {
+    if (document.documentElement.clientWidth < 575.98) {
+      mapElement.className = 'small';
+      fitMapToViewport();
+    } else if (document.documentElement.clientWidth < 767.98) {
+      mapElement.className = 'medium';
+      fitMapToViewport();
+    } else if (document.documentElement.clientWidth < 991.98) {
+      mapElement.className = 'large';
       fitMapToViewport();
     } else {
-      mapElement.style.height =
-        document.documentElement.clientHeight * 0.5 + 'px';
+      mapElement.className = 'large';
       fitMapToViewport();
     }
   }
+<<<<<<< HEAD
   mapResizer();
 
   window.onresize = mapResizer;
+=======
+
+  window.onresize = resizeMap;
+>>>>>>> parent of fe08d69... Task v0.1.63
 }
+
+console.log(document.documentElement.clientWidth);
